@@ -1,0 +1,19 @@
+{
+    "name": "ghw-mongodb-101",
+    "version": "1.0.0",
+    "description": "MongoDB 101 workshop",
+    "main": "src/examples/runAll.js",
+    "scripts": {
+        "start": "node src/examples/runAll.js",
+        "example:create": "node src/examples/createCollection.js",
+        "example:crud": "node src/examples/crud.js",
+        "example:find": "node src/examples/find.js"
+    },
+    "keywords": ["mongodb", "mongo", "examples", "workshop"],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "mongodb": "^5.0.0",
+        "dotenv": "^16.0.0"
+    }
+}
