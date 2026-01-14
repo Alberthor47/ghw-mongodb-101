@@ -7,7 +7,8 @@
         "start": "node src/examples/runAll.js",
         "example:create": "node src/examples/createCollection.js",
         "example:crud": "node src/examples/crud.js",
-        "example:find": "node src/examples/find.js"
+        "example:find": "node src/examples/find.js",
+        "example:agg": "node src/examples/aggregation.js"
     },
     "keywords": ["mongodb", "mongo", "examples", "workshop"],
     "author": "",
